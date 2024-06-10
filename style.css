@@ -1,0 +1,156 @@
+body { background-color: rgb(59, 59, 59); font-family: Roboto; color: white; min-height: 100vh; }
+        .material-symbols-outlined {
+            font-size: 40px !important;
+            font-weight: 900 !important;
+            text-align: center;
+        }
+
+        #main {
+            padding-left: 20vw;
+            padding-right: 20vw;
+            padding-bottom: 10vh;
+            min-height: 100%;
+        }
+
+        #miesko {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        @media (max-width: 1000px) {
+            #miesko {
+              flex-direction: column;
+            }
+            #main {
+                padding-left: 2vw;
+                padding-right: 2vw;
+            }
+            #wind {
+                width: 80% !important;
+                height: 500px !important;
+            }
+            #he1 {
+                margin: 5vw !important;
+            }
+
+            #lista {
+                width: 80% !important;
+                padding-top: 5vw;
+                margin: 0vw !important;
+            }
+
+            .opis {
+                padding-left: 5vw !important;
+                padding-right: 5vw !important;
+            }
+
+            header{
+                height: 50px;
+            }
+
+          }
+        
+
+        #pogoda {
+            font-weight: 900;
+            color: rgb(222, 222, 222);
+        }
+
+
+        a:link {
+            color: gray;
+            background-color: transparent;
+            text-decoration: none;
+          }
+          
+          a:visited {
+            color: pink;
+            background-color: transparent;
+            text-decoration: none;
+          }
+          
+          a:hover {
+            color: rgb(187, 187, 187);
+            background-color: transparent;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 105%;
+            transition: font-size 0.2s ease-out;
+          }
+          
+          a:active {
+            color: rgb(255, 255, 255);
+            background-color: transparent;
+            text-decoration: none;
+          }
+
+        #lista {
+            margin: 3vw;
+            width: 20%;
+        }
+
+        #wind {
+            width: 80%;
+            height: 600px;
+        }
+
+        #block {
+            padding-top: 2.5vh;
+            padding-bottom: 2.5vh;
+            height: 100%;
+            float: left;
+            min-width: 33%;
+            text-align: center;
+        }
+
+        #he1 {
+            text-align: center;
+            font-size: 25px;
+            font-weight: 500;
+            margin: 2vw;
+        }
+        #he2 {
+            text-align: center;
+            font-size: 17px;
+            font-weight: 400;
+            color: lightgray;
+            padding-bottom: 5vh;
+        }
+
+        .opis {
+            margin-top: 3vw;
+        }
+
+        h3 {
+            color:rgb(211, 211, 211) !important;
+        }
+            
+
+        header{
+            height: 75px;
+            background-color: rgb(39, 39, 39);
+            font-family: poppins;
+            font-weight: 900;
+            padding-left: 10px;
+            padding-right: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #logo {
+            color: rgb(255, 238, 0);
+            font-size: 150%;
+            
+        }
+
+        footer {
+            text-align: center;
+            padding: 3px;
+            background-color: rgb(39, 39, 39);
+            color: white;
+            bottom: 0;
+            width: 100%;
+            position: fixed;
+        }
