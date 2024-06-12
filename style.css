@@ -128,7 +128,7 @@ body { background-color: rgb(59, 59, 59); font-family: Roboto; color: white; min
             
 
         header{
-            height: 75px;
+            height: 100px;
             background-color: rgb(39, 39, 39);
             font-family: poppins;
             font-weight: 900;
@@ -137,12 +137,16 @@ body { background-color: rgb(59, 59, 59); font-family: Roboto; color: white; min
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column;
+        }
+
+        #motd {
+            margin-bottom: 0px !important;
         }
 
         #logo {
             color: rgb(255, 238, 0);
             font-size: 150%;
-            
         }
 
         footer {
